@@ -145,7 +145,7 @@ namespace CoffeeWebService.Models
 
         //Eircode is the foreign key
         public String Eircode { get; set; }
-        public virtual CoffeeStore CoffeeStore { get; set; }
+       // public virtual CoffeeStore CoffeeStore { get; set; }
     }
     public class Drink
     {
@@ -163,7 +163,7 @@ namespace CoffeeWebService.Models
         public double Price { get; set; }
 
         public String Eircode { get; set; }
-        public virtual CoffeeStore CoffeeStore { get; set; }
+      //  public virtual CoffeeStore CoffeeStore { get; set; }
 
     }
     public class DrinkContext : DbContext
